@@ -51,7 +51,7 @@ public class FileTree {
 	}
 	 public static void main(String[] args) {
          try {
-                 filetree("H:/大三/JAVA");
+                 filetree("H:/大三/JAVA"); //dd
          } catch (FileNotFoundException ex) {
         	 
          } catch (IOException ex) {
