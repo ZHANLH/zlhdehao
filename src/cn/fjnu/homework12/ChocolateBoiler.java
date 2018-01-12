@@ -1,6 +1,6 @@
 package cn.fjnu.homework12;
 
-public class ChocolateBoiler {  
+public class ChocolateBoiler implements Runnable{  
     private boolean empty;  
     private boolean boiled;  
     private static ChocolateBoiler uniqueInstance;  
@@ -44,5 +44,11 @@ public class ChocolateBoiler {
    
     public boolean isBoiled() {  
         return boiled;  
-    }  
+    }
+
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		
+	}  
 }  
